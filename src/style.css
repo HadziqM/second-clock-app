@@ -1,0 +1,36 @@
+@font-face{
+  font-family: "Orbitron";
+  src: url('/Orbitron-VariableFont_wght.ttf') format('truetype');
+}
+
+
+
+:root {
+  font-family: "Orbitron";
+  font-size: 14px;
+  font-weight: lighter;
+
+  color: #fff;
+  background-color: #f6f6f6;
+
+}
+main,div,input,body{
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  user-select: none;
+}
+.container {
+  margin: 0;
+  height: 100vh;
+  width: 100vh;
+  background-image: url(/bg.png);
+  background-position: center;
+  background-size: cover;
+  user-select: none;
+}
+
